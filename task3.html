@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+ 
+  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<title>TASK3</title>
+</head>
+<style>
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  img{
+    float: left;
+    max-width: 100%;
+    width:700px;
+    height:650px;
+    display: block;
+
+  }
+  body{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+  }
+.wrap{
+float:right;
+height:800;
+width:40%;
+}
+h2{
+  margin:20px 90px;
+}
+.inside{
+    border:1px solid #bbbbbb;
+    padding: 10px 15px;
+    width: 400px;
+}
+.foo  {
+  
+  padding: 12px 20px;
+  width:400px;
+}
+input {
+  box-sizing: border-box;
+  padding: 08px 20px;
+}
+button{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 10px 100px;
+  cursor: pointer;
+  width:200px;
+}
+
+</style>
+<body> 
+<img src="image1.jpeg" alt="book" >
+
+<div class="wrap">
+   <h2>Send Us A Message</h2>
+   <form>
+    <div class="inside">
+ <label>  Tell Us Your Name *</label>
+ </div>
+ 
+ <input type=text style="width:200px" id="fname" name="fname" placeholder="First Name" required>
+ 
+ <input type=text style="width:200px" id="lname" name="lname" placeholder="Last Name" required>
+
+ <br>
+ <br>
+
+
+ <div class="inside">
+ <label>  Enter Your Email *</label><br></div>
+ 
+ <input type=email class="foo"id="email" name="email" placeholder="Eg.examble@gmail.com" required>
+
+<br>
+<br>
+
+<div class="inside">
+ <label>  Enter Your Phone No </label><br>
+</div>
+
+ <input type=text class="foo" id="num" name="num" placeholder="Eg.+91 9080422437">
+ <br>
+
+<br>
+
+<div class="inside">
+ <label>Message *</label><br>
+ </div>
+ ​<textarea id="textArea" rows="7" cols="52" placeholder="Write Us A message" required></textarea>
+ <br>
+<br>
+ <button>Send Message</button>
+
+</form>
+</div>
+
+</div>
+</body>
+</html>
